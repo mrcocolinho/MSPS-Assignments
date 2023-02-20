@@ -14,7 +14,7 @@ warnings.simplefilter(action='ignore', category=wavfile.WavFileWarning)
 ## HTML/CSS styling
 from IPython.display import HTML
 def css_styling():
-    return HTML(open("../assets/styles/custom.css",'r').read())
+    return HTML(open("assets/styles/custom.css",'r').read())
 
 ## Plot parameters
 #plt.ioff()                        # interactive mode off -- this means you need plt.show() to show the plots
